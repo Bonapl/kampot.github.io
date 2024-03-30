@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ខេត្តកំពត-001</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.3),rgba(0,0,0,0.8));
+        height: 100vh;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .title h1{
+    padding-top: 40px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'khmer os Muol';
+        background: url(./img/kp1.jpg) 0 0/cover no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(8px 4px 4px black);
+    }
+    .title p{
+        font-size: 20px;
+        font-family: 'khmer os Bokor';
+        padding-top: 40px;
+    }
+    .click{
+        padding-top: 80px;
+    }
+    .click button{
+        border: none;
+        width: 180px;
+        height: 35px;
+        background: linear-gradient(to right, rgb(128, 17, 180), rgb(151, 19, 127));
+        border-radius: 15px;
+        color: black;
+        font-size: 16px;
+        transition-duration: 0.10s;
+        
+    }
+    .click button:hover{
+        background: linear-gradient(to right, rgb(72, 10, 205), rgb(93, 180, 17));
+        transform: scale(0.90);
+        cursor: pointer;
+    }
+    @media screen and (max-width:600px){
+        .title h1{
+            font-size: 20px;
+        }
+        .title p{
+            font-size: 12px;
+        }
+        .click button{
+            width: 130px;
+        }
+    }
+</style>
+<body>
+    <div class="content">
+    <div class="title">
+        <h1>សូមស្វាគម៏មកកាន់ខេត្តកំពត</h1>
+        <p>វេបសាយនេះ​ បង្កើតឡើងគឺចង់បង្ហាញអំពីខេត្តកំពត<br>
+            ចង់ដឹងបន្ថែម​ សូមចូលទៅកាន់ខាងក្រោម👇
+        </p>
+        <div class="click">
+            <a href="homepage.html"><button>ចុចទីនេះ</button></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

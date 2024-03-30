@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ខេត្តកំពត-001</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      display: block;
+      justify-content: center;
+    }
+    .title {
+      display: flex;
+      display: flex;
+      height: 200px;
+      width: 100%;
+      background-color: rgb(232, 232, 232);
+      justify-content: center;
+    }
+    .title h1 {
+      padding-top: 50px;
+      font-weight: bold;
+      font-family: "khmer os Muol";
+    }
+    .image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .image img {
+      width: 100%;
+      height: 500px;
+      border-radius: 40px;
+      filter: contrast(200%);
+    }
+    p{
+      text-align: center;
+      padding: 20px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'khmer os Muol';
+    }
+    .header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      position: sticky;
+      top: 5px;
+    }
+    .navbar {
+      display: flex;
+      height: 80px;
+      background-color: rgb(17, 16, 16);
+      width: 100%;
+      align-items: center;
+    }
+    .navbar ul {
+      display: flex;
+      float: left;
+      justify-content: space-between;
+      list-style: none;
+    }
+    .navbar ul li{
+      padding: 10px;
+    }
+    .navbar ul li a{
+      color: white;
+      font-weight: bold;
+      font-family: 'khmer os Bokor';
+      font-size: 18px;
+      transition-duration: 0.5s;
+    }
+    .navbar ul li a:hover{
+      color:fuchsia;
+      background-color: #ffffff;
+      border-radius: 15px;
+    }
+    .paragraph{
+      width: 100%;
+      padding: 20px;
+    }
+    .paragraph p{
+      font-size: 18px;
+      font-family: 'khmer os Bokor';
+      padding: 20px;
+    }
+    .h2{
+      width: 400px;
+      display: flex;
+      height: 80px;
+      border: 2px solid black;
+      box-shadow: 4px 5px black;
+    }
+    .h2 h2{
+      font-size: 18px;
+      font-family: 'khmer os Bokor';
+    }
+    .h2 p{
+      font-family: 'khmer os Bokor';
+      font-size: 18px;
+    }
+    .in-kp{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .item-kp{
+      text-align: center;
+      align-items: center;
+      width: 700px;
+      background-color: antiquewhite;
+      
+    }
+    .item-kp p{
+      font-size: 16px;
+      font-family: 'khmer os Bokor';
+      border: 1px solid black;
+    }
+    .item-kp p::before{
+      content: "⁕ ";
+    }
+    .footer{
+      width: 100%;
+      background-color: #878383;
+      height: 150px;
+    }
+    .footer marquee{
+      font-family: 'khmer os Bokor';
+      color: blue;
+    }
+    .location{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+    .location .item{
+      text-align: center;
+    }
+    .location .item h3{
+      padding: 40px;
+      font-family: 'khmer os Bokor';
+      font-size: 20px;
+    }
+    .location .item img{
+      width: 30px;
+      height: 30px;
+    }
+    @media screen and (max-width:600px){
+      .navbar ul li a{
+        font-size: 12px;
+      }
+      .title h1{
+        font-size: 20px;
+      }
+      .image p{
+        font-size: 20px;
+      }
+      p{
+        font-size: 20px;
+      }
+      .h2 p{
+        font-size: 12px;
+      }
+      .paragraph p{
+        font-size: 12px;
+      }
+      .item-kp p{
+        font-size: 12px;
+      }
+      .location .item h3{
+        font-size: 12px;
+      }
+      .footer marquee{
+        font-size: 12px;
+      }
+    }
+  </style>
+  <body>
+    <div class="title">
+      <h1>ខេត្តកំពត</h1>
+    </div>
+    <div class="image">
+      <img src="./img/kp1.jpg" />
+    </div>
+    <p>រង្វង់មូលធុរេន</p>
+    <div class="header">
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="homepage.html">ទំព័រដើម</a>
+          </li>
+          <li>
+            <a href="romnithan.html">រមណីយដ្ធាន</a>
+          </li>
+          <li>
+            <a href="#">កសិកម្ម</a>
+          </li>
+          <li>
+            <a href="#">ប្រវត្តិសាស្រ្ត</a>
+          </li>
+          <li>
+            <a href="#">អំពីវេបសាយ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="paragraph">
+      <div class="h2">
+        <h2>ក្រុងកំពត</h2>
+        <p>អត្ថបទនេះនិយាយអំពី ក្រុងកំពត</p>
+      </div>
+      <p>ក្រុង​កំពត គឺជាទីរួមរដ្ឋបាលនៃខេត្តកំពត ត្រូវបានប្តូរឈ្មោះពី ស្រុកកំពង់បាយ តាមអនុក្រឹត្យលេខ​ ២២១ អនក្រ.បក នៅខែតុលា ២០០៨ មានផ្ទៃដីចំនួន៥៤០០ហិចតា។ ក្រុងនេះស្ថិតនៅតាមដងព្រែកទឹកឈូ និងមានចម្ងាយ ៥ គ.មពីឈូងសមុទ្រថៃ។ នៅទីនោះមានកន្លែងកំសាន្តច្រើនណាស់ ដូចជា ការទស្សនាអាគារចាស់ៗ រមណីដ្ខាន ដូចជាភ្នំបូកគោ រមណីយទឹកឈូ វារីអគ្គីសនីភ្នំកំចាយ ឆ្នេរព្រៃក្រុងកំពត និងកន្លែងដែលមានទឹកធ្លាក់ជាច្រើនក្នុងក្រុងកំពត។
+        សាលាខេត្តកំពតបានរៀបចំហេដ្ឋារចនាសម្ព័ន្ធជាច្រើន ដើម្បីទាក់ទាញភ្ញៀវទេសចរដើម្បី​​​​​​​​ ជាប្រយោជន៏ដល់ប្រជាជនដែលរស់នៅ ក្នុងក្រុងកំពតមានការងារធ្វើច្រើន និងមានជីវភាពធូរធារស្របតាមយុត្តិសាស្រ្ត របស់រាជរដ្ឋាភិបាលបច្ចុប្បន្ន។
+        ម៉្យាងទៀតកំពតក៏ជា ក្រុងមួយដែលមានសក្កានុពលផ្នែកសេដ្ឋកិច្ចផងដែរ ព្រោះវាជាក្រុងដែលស្ថិតនៅជិតសមុទ្រ ដូច្នេះទើបក្រុងនេះមានប្រជាជនកុះករដោយសារភាពងាយស្រួលក្នុងការរស់ នៅ​​​ និងការប្រកបរបរចិញ្ចឹមជីវិតមានដូចជា នេសាទត្រី ធ្វើស្រែចំការ ចិញ្ចឹមសត្វ ចិញ្ចឹមត្រី ដាំបន្លែ កម្មករសំណង់ ធ្វើឡួរ​ ធ្វើការរដ្ឋ និងមានការងារច្រើនផ្សេងពីនេះថែមទៀត។
+        បច្ចុប្បន្ននេះ ប្រជាពលរដ្ឋរស់នៅក្នុងខេត្តកំពត មានក្តីរីករាយ ព្រោះទំនប់វារីអគ្គីសនី ដែលនៅលើភ្នំកំចាយ បានបើកដំនើរការទំនប់វារីអគ្គីសនីនេះ និង អាចជូយសន្សំថវិការរបស់ប្រជាជនបានមួយចំណែកផងដែរ ដោយវាមានតំលៃថោកជាងមុនបន្តិច។ នៅថ្ងៃអនាគតទំនប់នេះ នឹងក្លាយជាកន្លែងទេសចរណ៍ ដែលមានសម្រស់ស្រស់ស្អាត ហើយជាទំនប់ទឹកដ៏ធំដែលស្ថិតនៅ កណ្ដាលជន្លោងភ្នំ ដែលអាចនឹងទាញភ្ញៀវទេសចរជាតិ និងអន្តរជាតិបានរហូតដល់រាប់រយនាក់ឬ ច្រើនជាងនេះ ពីព្រោះទំនប់នេះមានសម្រស់ស្រស់ត្រកាល ដោយសារព្រៃព្រឹក្សាអ្នកតាវល្លឹកពណ៌ខៀវស្រងាត់ បើនិយាយពីកម្ពស់វិញ គឺវាមានលក្ខណខ្ពស់ធំត្រដាតផុតកន្ទុយភ្នែក គឺ ១០០ ម ពីផ្ទៃក្រោមទៅផ្ទៃលើ ហើយទទឹងវិញមានប្រវែងរាប់រយម៉ែត បើសិន​មើលឡើងទៅគួរអោយរន្ធត់ ហើយមិនត្រឹមតែប៉ុណ្តោះនៅមានទិដ្ឋភាពជាច្រើនទៀតដូចជាៈ ការថតរូបអំពីទំនប់ ការរូងភ្នំ ការថតហ្វូងសត្វ ការទេសភាពភ្នំព្រៃព្រឹក្សាអ្នកតាវល្លឹ ហើយនិងការស្ទូងត្រីលេងកំសាន្តជាដើម។
+        បើសិនជាអ្នកចុះមកក្រោមប្រហែល ១​ គមមានកន្លែងមួយ ដែលគេអោយឈ្មោះថា រមណីយដ្ឋានទឹកឈូ នៅមិនឆ្ងាយប៉ុន្មានពីទំនប់វារីអគ្គីសនី ហើយមនុស្សដែលរស់តំបន់នោះភាគច្រើនជាអ្នកធ្វើចំការ លក់ម្ហូបអាហារក្នុងរមណីយដ្ឋាន និងអាចកាប់ឈើនៅលើភ្នំ នាំអោយប្រជាជននៅមានជីវភាពធូធារគួរសម។</p>
+    </div>
+    <div class="in-kp">
+      <div class="item-kp">
+      <img src="./img/map.png">
+      <p>ក្រុងកំពតស្ថិតនៅភាគខាងត្បូងខេត្ត</p>
+      <p>កូអរដោនេ: 10°59′N 104°16′E <iframe src="https://geohack.toolforge.org/geohack.php?pagename=%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%BB%E1%9E%84%E1%9E%80%E1%9F%86%E1%9E%96%E1%9E%8F&params=10_59_N_104_16_E_type:adm1st_region:KH"></iframe></p>
+      <p>ប្រទេស​ កម្ពុជា</p>
+      <p>ខេត្ត កំពត</p>
+      <p>បង្កើត ៣០ តុលា ២០០៨</p>
+      <p>រដ្ឋាភិបាល</p>
+      <p> ប្រភេទ រដ្ឋាភិបាល</p>
+      <p> អភិបាល ម៉ៅ ធនិន</p>
+      <p>ផ្ទៃក្រឡា</p>
+      <p>សរុប ៥.៤ គម2 (២.១ ម៉ាយ ការ)</p>
+      <p>រយៈកំពស់ ១ m (៣ ft)</p>
+      <p>ប្រជាជន (២០១៧)</p>
+      <p>សរុប ៤០០០០</p>
+      <p>សន្ទភាព ៧៤០០/km2 (១៩០០០/sq mi)</p>
+    </div>
+    </div>
+    <div class="location">
+      <div class="item">
+        <h3><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmhJREFUWEftl02oTVEUx38PUSQxQxFRTAkDkbyJTMhHioEyowwZKZ8lZfQmlKT0Xq9EIhNRFBNKMlEoFBmISBHla//Z6nbsc9Za595XL1l1u4O99lq/s/ZeH7uPUSZ9o4yHfwZoGrAJWAfMA2bkSL8CHgOXgAvAu+gJRCM0C9gHbAfGG86+AKeBo8BLL1gEaHOKxqADpOr7E7AFuOKB8gLtBY55DDbo7AROWjY8QBuB85Yhx/p3YC1wtUnXApoLPEz3YILDoUflAzAfeF2nbAEpUzYYng6m9QNZR//7Df0TCWhXG6CFOTrWl0eBvgLTgTclw00RUnoftmiAKJBM7gDORIFuA8tHCOhcLgV/mW+K0PP0FbMLQIpIp9wE9JOsyr/O9dKdug8sikboIzCxsMlKhOqWHwUb74GpUaDPNeneCyBV70lRIDVKZUNVenFkug5zokDXgf4RutSX86QQutRKeaW+JW3Sfg9wPBqhJan33LVoWtYhjTEvokDSVx9TxW6SaIRuASvrDFoZszU1wyFHlCIqmjTVI4tiAY0BHuUxNeK0TvceoKtQqk2/9lhA0lkPXOwBjSAWp+xSla4VD5A2DwC7u4Q65BhNXBEShwb6B8CCllCqaWuAb9Z+b4RkR9l2B5hsGa2s64hWAOqNpkSAZEzd/BowzrT8W+EpsDQd91unvvvIOu1ty88hy4fm5mWA+pZbohH6Y1hQZwGVhZIIYnV6UD5zk2TFtkDarsefiubYitMn+Wg1LYSlGyA502UdBmZmzzdy3dJzp5V0CySnUxLQqVzRjwB607eWXgC1dl7a+B/ICudPjFJnJV0g9CQAAAAASUVORK5CYII="/>ទីតាំងខេត្តកំពត</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62721.31783916616!2d104.35814569999998!3d10.728130600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310905ad816f8233%3A0xfcf397aabf9d3301!2z4Z6B4Z-B4Z6P4Z-S4Z6P4Z6A4Z-G4Z6W4Z6P!5e0!3m2!1skm!2skh!4v1711718453720!5m2!1skm!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="footer">
+      <marquee behavior="" direction="">ក្រុងកំពត-KAMPOT OF CAMBODIA</marquee>
+    </div>
+  </body>
+</html>
